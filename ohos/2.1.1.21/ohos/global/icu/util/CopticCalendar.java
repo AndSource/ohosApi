@@ -1,0 +1,162 @@
+/*     */ package ohos.global.icu.util;
+/*     */ 
+/*     */ import java.util.Date;
+/*     */ import java.util.Locale;
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ public final class CopticCalendar
+/*     */   extends Calendar
+/*     */ {
+/*     */   public static final int AMSHIR = 5;
+/*     */   public static final int BABA = 1;
+/*     */   public static final int BARAMHAT = 6;
+/*     */   public static final int BARAMOUDA = 7;
+/*     */   public static final int BASHANS = 8;
+/*     */   public static final int EPEP = 10;
+/*     */   public static final int HATOR = 2;
+/*     */   public static final int KIAHK = 3;
+/*     */   public static final int MESRA = 11;
+/*     */   public static final int NASIE = 12;
+/*     */   public static final int PAONA = 9;
+/*     */   public static final int TOBA = 4;
+/*     */   public static final int TOUT = 0;
+/*     */   
+/*     */   public CopticCalendar() {
+/*  33 */     throw new RuntimeException("Stub!");
+/*     */   }
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */   
+/*     */   public CopticCalendar(TimeZone zone) {
+/*  42 */     throw new RuntimeException("Stub!");
+/*     */   }
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */   
+/*     */   public CopticCalendar(Locale aLocale) {
+/*  51 */     throw new RuntimeException("Stub!");
+/*     */   }
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */   
+/*     */   public CopticCalendar(ULocale locale) {
+/*  60 */     throw new RuntimeException("Stub!");
+/*     */   }
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */   
+/*     */   public CopticCalendar(TimeZone zone, Locale aLocale) {
+/*  70 */     throw new RuntimeException("Stub!");
+/*     */   }
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */   
+/*     */   public CopticCalendar(TimeZone zone, ULocale locale) {
+/*  80 */     throw new RuntimeException("Stub!");
+/*     */   }
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */   
+/*     */   public CopticCalendar(int year, int month, int date) {
+/*  92 */     throw new RuntimeException("Stub!");
+/*     */   }
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */   
+/*     */   public CopticCalendar(Date date) {
+/* 101 */     throw new RuntimeException("Stub!");
+/*     */   }
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */   
+/*     */   public CopticCalendar(int year, int month, int date, int hour, int minute, int second) {
+/* 116 */     throw new RuntimeException("Stub!");
+/*     */   }
+/*     */ 
+/*     */ 
+/*     */   
+/*     */   public String getType() {
+/* 122 */     throw new RuntimeException("Stub!");
+/*     */   }
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */   
+/*     */   @Deprecated
+/*     */   protected int handleGetExtendedYear() {
+/* 132 */     throw new RuntimeException("Stub!");
+/*     */   }
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */   
+/*     */   @Deprecated
+/*     */   protected void handleComputeFields(int julianDay) {
+/* 142 */     throw new RuntimeException("Stub!");
+/*     */   }
+/*     */ 
+/*     */ 
+/*     */   
+/*     */   protected int handleComputeMonthStart(int eyear, int emonth, boolean useMonth) {
+/* 148 */     throw new RuntimeException("Stub!");
+/*     */   }
+/*     */ 
+/*     */ 
+/*     */   
+/*     */   protected int handleGetLimit(int field, int limitType) {
+/* 154 */     throw new RuntimeException("Stub!");
+/*     */   }
+/*     */ }
+
+
+/* Location:              /Users/sanbo/tools/HarmonOS_Legacy_sdk/java/2.1.1.21/api/ohos.jar!/ohos/global/icu/util/CopticCalendar.class
+ * Java compiler version: 8 (52.0)
+ * JD-Core Version:       1.1.3
+ */

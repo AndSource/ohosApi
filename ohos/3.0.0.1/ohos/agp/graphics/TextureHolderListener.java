@@ -1,0 +1,17 @@
+package ohos.agp.graphics;
+
+public interface TextureHolderListener {
+  void onTextureHolderAvailable(TextureHolder paramTextureHolder, int paramInt1, int paramInt2);
+  
+  void onTextureHolderSizeChanged(TextureHolder paramTextureHolder, int paramInt1, int paramInt2);
+  
+  void onTextureHolderDestroyed(TextureHolder paramTextureHolder);
+  
+  void onTextureHolderUpdated(TextureHolder paramTextureHolder);
+}
+
+
+/* Location:              /Users/sanbo/tools/HarmonOS_Legacy_sdk/java/3.0.0.1/api/ohos.jar!/ohos/agp/graphics/TextureHolderListener.class
+ * Java compiler version: 8 (52.0)
+ * JD-Core Version:       1.1.3
+ */
